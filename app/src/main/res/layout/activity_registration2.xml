@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/grad_bg"
+    android:layout_height="match_parent"
+    tools:context=".registration2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="Registration Form"
+                android:layout_marginStart="90dp"
+                android:id="@+id/reg"
+                android:layout_marginLeft="90dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="8"
+                android:id="@+id/fn"
+                android:hint="First Name"
+                android:layout_below="@id/reg"
+                android:inputType="textPersonName"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="8"
+                android:id="@+id/ln"
+                android:hint="Last Name"
+                android:layout_below="@id/reg"
+                android:inputType="textPersonName"
+                android:layout_toRightOf="@id/fn"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="16"
+                android:id="@+id/eml"
+                android:layout_below="@id/fn"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cno"
+                android:layout_below="@id/eml"
+                android:inputType="phone"
+                android:hint="Contact No."
+                android:ems="7"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/eml"
+                android:layout_toRightOf="@id/cno"
+                android:text="Gender: "
+                android:id="@+id/gr"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdg"
+                android:layout_below="@id/eml"
+                android:layout_toRightOf="@id/gr"
+                android:layout_marginTop="18dp"
+                >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Male"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    />
+            </RadioGroup>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/adr"
+                android:layout_below="@id/cno"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:inputType="text"
+                android:ems="12"
+                android:hint="Address"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/strm"
+                android:layout_below="@id/adr"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:inputType="text"
+                android:ems="12"
+                android:hint="Stream"
+                />
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdg1"
+                android:layout_below="@id/strm"
+                android:layout_marginTop="18dp"
+                >
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medical"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Non Medical"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Both"
+                    />
+            </RadioGroup>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cfs"
+                android:layout_below="@id/strm"
+                android:layout_toRightOf="@id/rdg1"
+                android:ems="5"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:hint="Stream"
+                android:layout_marginLeft="100dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tmk"
+                android:layout_below="@id/rdg1"
+                android:ems="5"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:hint="10th Marks"
+                android:inputType="numberDecimal"
+                android:layout_marginLeft="10dp" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tlmk"
+                android:layout_toRightOf="@id/tmk"
+                android:layout_below="@id/rdg1"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
+                android:inputType="numberDecimal"
+                android:ems="5"
+                android:hint="12th Marks"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/eg"
+                android:layout_below="@id/tmk"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:text="Exams Given: "
+                android:textSize="19sp"
+                />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/tbl"
+                android:layout_below="@id/eg"
+                >
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Exam Type"
+                        android:ems="7"
+                        android:textSize="17sp"
+                        ></TextView>
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="Marks"
+                        android:textSize="17sp"
+                        android:ems="5"
+                        ></TextView>
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JEE Mains"
+                        android:ems="7"
+                        android:textSize="17sp"
+                        ></TextView>
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:ems="5"
+                        android:textSize="17sp"
+                        android:inputType="numberDecimal"
+                        ></EditText>
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NEET"
+                        android:textSize="17sp"
+                        android:ems="7"
+                        ></TextView>
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:ems="5"
+                        android:textSize="17sp"
+                        android:inputType="numberDecimal"
+                        >
+
+                    </EditText>
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="State Exams"
+                        android:textSize="17sp"
+                        android:ems="7"
+                        ></TextView>
+                    <EditText
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:ems="5"
+                        android:textSize="17sp"
+                        android:inputType="numberDecimal"
+                        ></EditText>
+
+                </TableRow>
+                ></TableLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dept"
+                android:layout_below="@id/tbl"
+                android:text="Department: "
+                android:textSize="19sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/drp"
+                android:layout_marginStart="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@id/dept"
+                android:layout_below="@id/tbl"
+                android:layout_marginTop="20dp"
+                ></Spinner>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="16"
+                android:id="@+id/cdept"
+                android:layout_below="@id/drp"
+                android:hint="Confirm Department"
+                android:inputType="textEmailAddress"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:background="@drawable/bt_bg"
+                android:id="@+id/btn"
+                android:layout_below="@id/drp"
+                android:layout_marginTop="50sp"
+                android:layout_marginStart="150dp"
+                android:layout_marginLeft="150dp"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

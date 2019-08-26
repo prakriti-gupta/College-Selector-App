@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/grad_bg"
+    android:layout_height="match_parent"
+    tools:context=".Second">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="80dp"
+        android:text="Total"
+        />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/t3"
+        android:layout_marginLeft="80dp"
+        android:text="Correct"
+        android:textSize="24sp"
+         />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/t1"
+        android:layout_marginLeft="80dp"
+        android:text="Incorrect"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:textSize="24sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@id/t1"
+        android:layout_marginLeft="80dp"
+        android:text="TextView"
+         />
+
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@id/t3"
+        android:layout_below="@id/t6"
+        android:layout_marginLeft="50dp"
+        android:text="TextView"
+        android:textSize="24sp"
+         />
+
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/t3"
+        android:layout_below="@id/t6"
+        android:layout_marginLeft="50dp"
+        android:text="TextView"
+        android:textSize="24sp"
+         />
+
+    <Button
+        android:id="@+id/bn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/bt_bg"
+        android:text="Submit"
+        android:layout_below="@id/t2"
+        android:layout_marginLeft="150dp"
+
+         />
+</RelativeLayout>

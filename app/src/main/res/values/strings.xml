@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SelectorCollege</string>
+    <string name="chitkara_university_was_founded_by_the_punjab_state_legislature_under_the_chitkara_university_act_in_2010_the_university_comes_under_the_establishment_of_the_chitkara_educational_trust_based_in_chandigarh_and_founded_by_dr_ashok_k_chitkara_and_dr_madhu_chitkara_in_1998">Chitkara University was founded by the Punjab State Legislature under The Chitkara University Act in 2010. The university comes under the establishment of the Chitkara Educational Trust based in Chandigarh and founded by Dr Ashok K Chitkara and Dr Madhu Chitkara in 1998.</string>
+    <string name="type_your_review">Type your review....</string>
+    <string-array name="Department">
+
+        <item>Select Department</item>
+        <item>Computer Science Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Electrical and Electronics Engineering</item>
+        <item>Hotel Management</item>
+        <item>Bachelor of Architecture</item>
+        <item>Bachelor of Planning</item>
+        <item>B.A.(Hons) Economics</item>
+        <item>B.A.(Hons) PPE</item>
+        <item>B.Sc.(Hons)-Mathematics</item>
+        <item>B.Sc.(Hons)-Physics</item>
+        <item>B.Sc.(Hons)-Chemistry</item>
+    </string-array>
+</resources>

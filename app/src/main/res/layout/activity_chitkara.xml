@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    tools:context=".chitkara">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <ViewFlipper
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+
+                android:id="@+id/v_flipper"
+                tools:ignore="InvalidId">
+            </ViewFlipper>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#fffccc"
+                android:textStyle="bold|italic"
+                android:text="Chitkara University
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fdfcfb"
+                android:textSize="17sp"
+                android:layout_marginTop="20dp"
+                android:text="Chitkara University, Punjab is a private university in India with its campus in Punjab. It offers undergraduate programs, post-graduate program and doctoral programs in fields like Engineering, Management, Pharmacy and other courses in Health Sciences, Nursing, etc.
+
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp"
+                android:textColor="#fffccc"
+                android:text="Rankings
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fdfcfb"
+                android:layout_marginTop="20dp"
+                android:textSize="17sp"
+                android:text="Chitkara University was ranked in the 151–200 band among universities in India by National Institutional Ranking Framework (NIRF) in 2018 and 50 in the pharmacy ranking.
+
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:layout_marginTop="20dp"
+                android:textSize="25sp"
+                android:textColor="#fffccc"
+                android:text="Affiliations
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fdfcfb"
+                android:textSize="17sp"
+                android:layout_marginTop="20dp"
+                android:text="Like all universities in India, Chitkara University is recognized by the University Grants Commission (UGC). The university is also accredited by the National Assessment and Accreditation Council (NAAC). Relevant programmes are approved by the Council of Architecture (COA), Pharmacy Council of India (PCI), National Council for Teacher Education (NCTE), Indian Nursing Council (INC) and National Council for Hotel Management and Catering Technology (NCHMCT).
+
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold|italic"
+                android:textSize="25sp"
+                android:textColor="#fffccc"
+                android:layout_marginTop="20dp"
+                android:text="Campus
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fdfcfb"
+                android:textSize="17sp"
+                android:layout_marginTop="20dp"
+                android:text="Chitkara Educational Trust established the Punjab Campus in 2002 with initiation of Chitkara Institute of Engineering and Technology (CIET). The campus is spread over 50 acres, 30 kilometers from Chandigarh.
+
+
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="bold|italic"
+                android:textColor="#fffccc"
+                android:layout_marginTop="20dp"
+                android:text="History
+"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fdfcfb"
+                android:textSize="17sp"
+                android:layout_marginTop="20dp"
+                android:text="@string/chitkara_university_was_founded_by_the_punjab_state_legislature_under_the_chitkara_university_act_in_2010_the_university_comes_under_the_establishment_of_the_chitkara_educational_trust_based_in_chandigarh_and_founded_by_dr_ashok_k_chitkara_and_dr_madhu_chitkara_in_1998"/>
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <TextView
+                        android:text="Departments"
+                        android:textSize="22dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="Avaliability"
+                        android:textSize="22dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="1.    Applied sciences"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="Seats"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="B.Sc.(Hons)-Mathematics"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="15"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="B.Sc.(Hons)-Physics"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="13"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="B.Sc.(Hons)-Chemistry"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="10"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text=" "
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text=" "
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text=" "
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text=" "
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="2.    Engineering"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="    "
+                        android:textSize="18dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="B.Tech(CSE)"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="9"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="B.Tech(Civil)"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="11"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="B.Tech(Electrical)"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="14"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="B.Tech(Mechanical)"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="6"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="  "
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="  "
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text=" "
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text=" "
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="3.    Education"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="  "
+                        android:textSize="18dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="B.A.(Hons)-Economics"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="8"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="B.A.(Hons)-PPE"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="12"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="  "
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="  "
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="  "
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="  "
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="4.    Architecture"
+                        android:textSize="18dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="  "
+                        android:textSize="18dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Bachelor of Architecture"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="20"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:text="Bachelor of Planning"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_gravity="left"
+                        android:textColor="#fdfcfb"/>
+                    <TextView
+                        android:text="22"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="18dp"
+                        android:layout_gravity="right"
+                        android:textColor="#fdfcfb"/>
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="#fffccc"
+                android:textSize="25dp"
+                android:text="Give your ratings..."
+                />
+            <RatingBar
+                android:id="@+id/rate"
+                android:layout_width="wrap_content"
+                tools:layout_editor_absoluteX="64dp"
+                android:layout_marginTop="20dp"
+                android:scaleX="0.7"
+                android:scaleY="0.7"
+                tools:layout_editor_absoluteY="226dp"
+                android:layout_height="wrap_content" />
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:id="@+id/database_list_view"
+                tools:ignore="NestedScrolling" />
+
+            <Button
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="View Replies"
+            android:textSize="10dp"
+            android:background="@drawable/bt_bg"
+            android:id="@+id/subutton"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

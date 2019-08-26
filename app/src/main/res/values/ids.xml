@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ratingBar" type="id">ratingBar</item>
+    <item name="simple_List_item_1" type="id">simple_List_item_1</item>
+    <item name="logout" type="id">logout</item>
+    <item name="create" type="id">create</item>
+</resources>

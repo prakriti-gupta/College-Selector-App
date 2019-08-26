@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "308761316227",
+    "firebase_url": "https://selectorcollege.firebaseio.com",
+    "project_id": "selectorcollege",
+    "storage_bucket": "selectorcollege.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308761316227:android:306eb2ee9d31d79f",
+        "android_client_info": {
+          "package_name": "com.example.hp.selectorcollege"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308761316227-nuo3q5gdjvjvp9na9j9vk688h4q053jk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVLFQa1c4EOlcXbzWwe2u1NAqzSteVCxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308761316227-nuo3q5gdjvjvp9na9j9vk688h4q053jk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/grad_bg"
+    android:layout_height="match_parent"
+    tools:context=".admin">
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="50dp"
+      android:layout_marginLeft="20dp"
+      android:text="See the users who get login to this app  >>>"
+      android:textColor="#fffccc"
+      android:textSize="18dp"
+      />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/bt_bg"
+        android:id="@+id/link1"
+        android:layout_marginLeft="150dp"
+        android:text="Click"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:text="See the users who get registered to the colleges  >>>"
+        android:textColor="#fffccc"
+        android:textSize="18dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/bt_bg"
+        android:id="@+id/link2"
+        android:layout_marginLeft="150dp"
+        android:text="Click"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+</RelativeLayout>
