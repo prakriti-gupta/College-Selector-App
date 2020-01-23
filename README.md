@@ -8,6 +8,6 @@
     - Allows user for rating for specific college
 
 ## Screenshots :
-![Screenshot_20200123-094433](https://user-images.githubusercontent.com/41748122/72956729-d84d8780-3dc6-11ea-9e18-b84330b6d314.png)
-![Screenshot_20200123-094451](https://user-images.githubusercontent.com/41748122/72956774-029f4500-3dc7-11ea-89b3-d80ba8371b8d.png
-![Screenshot_20200123-094533](https://user-images.githubusercontent.com/41748122/72959485-772ab180-3dd0-11ea-8335-ef28b3f5c05a.png)
+![Screenshot_20200123-094433](https://user-images.githubusercontent.com/41748122/72970896-8b7da700-3dee-11ea-87a1-c558f4bdde55.png)
+![Screenshot_20200123-094451](https://user-images.githubusercontent.com/41748122/72970927-a2bc9480-3dee-11ea-9488-2a7297101f90.png)
+![Screenshot_20200123-094533](https://user-images.githubusercontent.com/41748122/72970945-aea85680-3dee-11ea-90f2-893001032ec9.png)
