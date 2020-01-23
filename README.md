@@ -2,7 +2,7 @@
  App helps to search a college for the youngters who are going to enter in college life
 ## Some Functionalities are :
     - User Registration
-    - Information for top colleges.
+    - Information for selected colleges.
     - Take the specific college test
     - User Email Verification
     - Allows user for rating for specific college
