@@ -1,6 +1,6 @@
 # College-Selector App
  App helps to search a college for the youngters who are going to enter in college life
-## Some Functionalities are :
+##  Functionalities :
     - User Registration
     - Information for selected colleges.
     - Take the specific college test
